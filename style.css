@@ -1,0 +1,195 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+    font-size: 100%;
+}
+
+html
+{
+    font-family: 'Domine', serif;
+}
+
+body
+{
+    width: 100%;
+   
+}
+
+.wrapper
+{
+    width: 90%;
+    margin: 0 auto ;
+}
+
+.navBar::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1
+{
+    font-size: 40px;
+}
+
+p
+{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*----- Navbar -----*/
+
+nav
+{
+    height: 70px;
+    line-height: 70px;
+}
+
+nav a img
+{
+    vertical-align: middle;
+    
+}
+
+nav a:nth-child(2)
+{
+    float: right;
+    
+}
+
+/*----- Header -----*/
+
+header
+{
+    text-align: center;
+
+}
+
+header > h1
+{
+    font-size: 90px;
+}
+
+header p
+{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+/*----- Work -----*/
+
+.work
+{
+    width: 100%;
+    text-align: center; 
+}
+
+.work img
+{
+    width: 70%;
+}
+
+.work h1
+{
+    font-size: 30px;
+    margin-bottom: 200px;  
+}
+
+/*----- Header two -----*/
+
+.header2
+{   
+    text-align: center;
+    margin: 130px 0 80px 40px;
+}
+
+.header2 p
+{
+    margin-top: 30px;
+}
+
+.work2
+{
+    width: 100%;
+    text-align: center;
+}
+
+.work2 img
+{
+    margin: 1%;
+    width: 70%;
+}
+
+/*----- Footer -----*/
+
+footer p
+{
+    text-align: center;
+    margin: 60px auto;
+}
+
+/*----- Responsiveness -----*/
+
+@media only screen and (max-width: 991px)
+{
+    header
+    {
+        text-align: left;
+        margin: 100px 0 100px 30px;
+    }
+
+    header h1
+    {
+        font-size: 56px;
+    }
+
+    header p
+    {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .work h1
+    {
+        font-size: 19px;
+        margin: 5px;
+        margin-bottom: 40px;
+    }
+
+    .work img
+    {
+        margin: 2%;
+        width: 90%;
+    }
+
+    .header2
+    {   
+        margin: 100px 0 40px 12px;
+    }
+
+    .header2 h1
+    {   
+        font-size: 36px;
+    }
+
+    .header2 p
+    {   
+        margin-top: 20px;
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .work2 img 
+    {
+        margin: 2%;
+        width: 90%;
+    }
+
+
+}
